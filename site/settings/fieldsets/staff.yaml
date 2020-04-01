@@ -1,0 +1,29 @@
+sections:
+  main:
+    display: Main
+    fields:
+      title:
+        display: Name
+        type: text
+        localizable: true
+      role:
+        type: text
+        display: Role
+      photo:
+        container: main
+        folder: Staff
+        restrict: true
+        type: assets
+        display: Photo
+        max_files: 1
+      description:
+        type: textarea
+        display: Description
+      education:
+        type: list
+        display: Education
+      email:
+        type: text
+        display: Email
+taxonomies: true
+title: Staff

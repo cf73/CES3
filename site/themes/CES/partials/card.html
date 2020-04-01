@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        {{collection:staff}}
+            <div class="col-sm-6">
+                <img width="200px" height="200px" style="border-radius: 50%;" src="{{photo}}" alt="">
+                <h1>{{title}}</h1>
+                <h3>{{role}}</h3>
+                {{if education}}
+                    <ul style="list-style-type: none; margin-left: -40px;">
+                        {{education}}
+                            <li style="margin-bottom: .5em;">{{value}}</li>
+                        {{/education}}
+                    </ul>
+                {{/if}}
+                <p>{{description}}</p>
+            </div>
+        {{/collection:staff}}    
+    </div>
+</div>
