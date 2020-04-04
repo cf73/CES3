@@ -1,0 +1,8 @@
+title: 'Day Program'
+description: 'The Cambridge-Ellis day program runs from 8:30 a.m. until 3:00 p.m. (with an option for daily dismissal at noon). We serve toddlers and preschool age children in six classrooms that are grouped according to age.'
+times: 'Morning (8:30-12:00) and Early Afternoon Programs (8:30-3:00)'
+enrollment_options:
+  - '5 Mornings'
+  - '5 Mornings and 3 Afternoons'
+  - '5 Mornings and 4 Afternoons'
+  - '5 Mornings and 5 Afternoons'

@@ -1,0 +1,29 @@
+sections:
+  main:
+    display: Main
+    fields:
+      title:
+        display: Title
+        type: text
+        localizable: true
+      age_range:
+        type: text
+        display: 'Age Range'
+      description:
+        type: textarea
+        display: Description
+      hero_image:
+        container: main
+        folder: Programs
+        restrict: false
+        max_files: 1
+        type: assets
+        display: 'Hero image'
+      program-type:
+        max_items: 1
+        taxonomy: program-type
+        mode: tags
+        type: taxonomy
+        display: 'Program Type'
+taxonomies: false
+title: Program

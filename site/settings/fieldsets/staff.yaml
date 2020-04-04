@@ -25,5 +25,9 @@ sections:
       email:
         type: text
         display: Email
+      programs:
+        collection: {  }
+        type: collection
+        display: Programs
 taxonomies: true
 title: Staff
