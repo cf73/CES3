@@ -25,5 +25,18 @@ sections:
         mode: tags
         type: taxonomy
         display: 'Program Type'
+      teachers:
+        collection:
+          - staff
+        mode: tags
+        type: collection
+        display: Teachers
+      head_teacher:
+        max_items: '1'
+        collection:
+          - staff
+        mode: tags
+        type: collection
+        display: 'Head Teacher'
 taxonomies: false
 title: Program

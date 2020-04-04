@@ -1,5 +1,5 @@
 title: 'Qiaoling Zheng'
-role: 'Head Teacher'
+role: Teacher
 photo: /assets/Staff/qiaoling.jpg
 description: 'I started teaching at Cambridge-Ellis School in 1998 and have been the Head Teacher in the Mandarin class since 2008. Throughout the decades of my teaching experiences, I have learned the true joy of teaching is growing together with the children.'
 education:

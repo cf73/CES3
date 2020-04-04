@@ -1,0 +1,29 @@
+<section>
+    <h1>
+        {{title}}
+    </h1>
+
+    <div class="row">
+        <div class="col-md-7">
+            <ul class="nav nav-tabs d-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center">
+                <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">Online Application</a></li>
+                
+                 <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">Financial Aid</a></li>
+                
+                <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-3">Timeline</a></li>
+                
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" role="tabpanel" id="tab-1">
+                   {{online_application}}
+                </div>
+                <div class="tab-pane" role="tabpanel" id="tab-2">
+                    {{financial_aid}}
+                </div>
+                <div class="tab-pane" role="tabpanel" id="tab-3">
+                    {{timeline}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
