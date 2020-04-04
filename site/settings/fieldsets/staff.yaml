@@ -26,8 +26,10 @@ sections:
         type: text
         display: Email
       programs:
-        collection: {  }
+        collection:
+          - programs
         type: collection
         display: Programs
+        mode: tags
 taxonomies: true
 title: Staff

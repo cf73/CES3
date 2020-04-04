@@ -1,3 +1,40 @@
 <h1>{{title}}</h1>
 
 <h2>{{description}}</h2>
+
+<section>
+    <h3>Teachers in this room:</h3>
+    <div class="row">
+        {{collection:staff :programs:contains="id"}}
+            <div class="col-sm-4">
+                {{if photo}}
+                    <img width="100%" src="{{photo}}" alt="{{title}}">
+                {{/if}}
+
+                {{if title}}
+                    <h4>
+                        {{title}}
+                    </h4>
+                {{/if}}
+                
+                {{if role}}
+                    {{role}}
+                {{/if}}
+
+                {{if education}}
+                    <ul style="list-style-type: none; margin-left: -40px;">
+                        {{education}}
+                            <li>{{value}}</li>
+                        {{/education}}
+                    </ul>
+                {{/if}}
+
+                {{if description}}
+                    <p>{{description}}</p>
+                {{/if}}
+            </div>
+            
+       
+        {{/collection:staff}}
+    </div>
+</section>
