@@ -1,15 +1,43 @@
-{{ taxonomy:program-type }}
+<section>
+    <h1>
+        {{title}}
+    </h1>
+    
+    <h3>{{description}}</h3>
+</section>
 
-    <h1>{{title}}</h1>
+<section>
+    <div class="row">
+        {{ taxonomy:program-type }}
+            <div class="col-sm-4">
+                <div class="card">
+                    <h4>{{title}}</h4>
+                    
+                    {{if times}}
+                        <p>{{times}}</p>
+                    {{/if}}
 
-    <p>{{times}}</p>
+                    {{if enrollment_options}}
+                    <p class="meta">enrollment options:</p>
+                        <ul>
+                        {{enrollment_options}}
+                        <li>{{value}}</li>
+                        {{/enrollment_options}}
+                        </ul>
+                    {{/if}}
 
-    <ul>
-        {{enrollment_options}}
-            <li>{{value}}</li>
-        {{/enrollment_options}}
-    </ul>
+                    <hr>
+                    <ul style="margin-left: -40px;">
+                        {{collection:programs program-type:is="{slug}"}}
+                            <li style="list-style-type: none;">
+                                <a href="programs/{{slug}}">{{title}}</a>
+                            </li>
+                        {{/collection:programs}}
+                    </ul>
+                    
 
-    <p>{{description}}</p>
-
-{{ /taxonomy:program-type }}
+                </div>
+            </div>
+        {{ /taxonomy:program-type }}
+    </div>
+</section>
