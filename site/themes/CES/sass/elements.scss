@@ -1,0 +1,14 @@
+.tag {
+    padding: 6px 30px;
+    background-color: $melon;
+    border-radius: 60px;
+    margin: 3px;
+    color: white;
+    display: inline;
+    text-decoration: none;
+    &:hover {
+        background-color: $pink;
+        color: white;
+        text-decoration: none !important;
+    }
+}

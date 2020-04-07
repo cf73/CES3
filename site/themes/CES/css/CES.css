@@ -1,3 +1,16 @@
+.tag {
+  padding: 6px 30px;
+  background-color: #FFBB00;
+  border-radius: 60px;
+  margin: 3px;
+  color: white;
+  display: inline;
+  text-decoration: none; }
+  .tag:hover {
+    background-color: #ED5575;
+    color: white;
+    text-decoration: none !important; }
+
 body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: #535353; }
