@@ -62,6 +62,14 @@
                     {{if description}}
                         <p>{{description}}</p>
                     {{/if}}
+
+                    {{if programs}}
+                        <ul>
+                            {{relate:programs}}
+                                <a href="{{slug}}"><li>{{title}}</li></a>
+                            {{/relate:programs}}
+                        </ul>
+                    {{/if}}
                 </div>
             {{/relate:teachers}}
         {{/if}}
