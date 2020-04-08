@@ -5,6 +5,7 @@ sections:
       title:
         display: Title
         type: text
+        localizable: true
       content:
         buttons:
           - h2
@@ -27,5 +28,15 @@ sections:
         restrict_assets: false
         type: bard
         display: Content
+      main_image:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        display: 'Main image'
+      block_quote:
+        type: replicator
+        display: 'Block quote'
 taxonomies: false
 title: 'Generic Page'

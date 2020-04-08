@@ -1,5 +1,6 @@
 ---
 title: 'A Letter from the Director'
+main_image: /assets/xgerlinde1.jpg
 fieldset: generic_page
 template: generic-page
 id: 7dfc5ca9-9f8d-4390-b9ac-35f38783c966
