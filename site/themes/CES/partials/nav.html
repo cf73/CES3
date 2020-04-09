@@ -10,9 +10,9 @@
                                 {{ nav from="/" include_home="true" scope="tag" }}
                                     <li {{ if is_current or is_parent }} class="active"{{ /if }}>
                                         <a href="{{ url }}">
-                                            <h3>
+                                            
                                             {{ tag:nav_title or title }}
-                                            </h3>
+                                            
                                         </a>
                                     </li>
                                 {{ /nav }}

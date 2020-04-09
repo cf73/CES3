@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+
+<ul style="list-style-type: none; margin-left: -40px;">
+    {{collection:events}}
+        <li style="margin-bottom: 60px;">
+            <div class="card">
+                {{if image}}
+                <img width="100%" src="{{image}}" alt="{{title}}">
+                {{/if}}
+                <h3>
+                    {{title}}
+                </h3>
+                {{date}}
+                {{location}}
+            </div>
+        </li>
+    {{/collection:events}}
+</ul>
