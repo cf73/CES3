@@ -1,0 +1,12 @@
+sections:
+  main:
+    display: Main
+    fields:
+      quote:
+        type: textarea
+        display: Quote
+      attribution:
+        type: text
+        display: Attribution
+taxonomies: false
+title: Inspiration
