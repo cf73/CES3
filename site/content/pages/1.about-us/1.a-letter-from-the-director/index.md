@@ -1,4 +1,19 @@
 ---
+my_replicator_field:
+  -
+    type: image
+    photo: /assets/xgerlinde1.jpg
+  -
+    type: text
+    text: 'Here''s some sample text, **right**?'
+  -
+    type: quote
+    text: 'test of pull quote'
+    cite: einstein
+    pull: left
+  -
+    type: text
+    text: 'and here''s some more _text_, for use later down the page'
 title: 'A Letter from the Director'
 main_image: /assets/xgerlinde1.jpg
 fieldset: generic_page

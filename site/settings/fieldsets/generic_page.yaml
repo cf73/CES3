@@ -2,41 +2,35 @@ sections:
   main:
     display: Main
     fields:
-      title:
-        display: Title
-        type: text
-        localizable: true
-      content:
-        buttons:
-          - h2
-          - h3
-          - bold
-          - italic
-          - unorderedlist
-          - orderedlist
-          - removeformat
-          - quote
-          - anchor
-        style: sans
-        spellcheck: true
-        allow_source: true
-        allow_internal_links: true
-        link_noopener: false
-        link_noreferrer: false
-        target_blank: false
-        semantic_elements: false
-        restrict_assets: false
-        type: bard
-        display: Content
-      main_image:
-        container: main
-        folder: /
-        restrict: false
-        max_files: 1
-        type: assets
-        display: 'Main image'
-      block_quote:
-        type: replicator
-        display: 'Block quote'
+       my_replicator_field:
+          type: replicator
+          display: Replicator
+          sets:
+            text:
+              display: Text
+              fields:
+                text:
+                  type: markdown
+            image:
+              display: Image
+              fields:
+                photo:
+                  type: assets
+                  container: main
+                  max_files: 1
+                caption:
+                  type: text
+            quote:
+              display: Pull Quote
+              fields:
+                text:
+                  type: text
+                cite:
+                  type: text
+                pull:
+                  type: radio
+                  options:
+                    left: Left Align
+                    right: Right Align
 taxonomies: false
-title: 'Generic Page'
+title: 'Freeform Page'

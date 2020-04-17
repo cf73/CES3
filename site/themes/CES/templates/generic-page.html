@@ -1,11 +1,25 @@
 <section>
-    <img src="{{main_image}}" width="100%" alt="{{title}}">
-    <div class="row">
-        <div class="col-md-7">
-            <h1>
-                {{title}}
-            </h1>
-            <p>{{content}}</p>
-        </div>
-    </div>
+    {{ my_replicator_field }}
+
+    {{ if type == "text" }}
+  
+      <div class="text">
+        {{ text|markdown }}
+      </div>
+  
+    {{ elseif type == "quote" }}
+  
+      <blockquote>{{ text }}</blockquote>
+      <p>— {{ cite }}</p>
+  
+    {{ elseif type == "image" }}
+  
+      <figure>
+        <img src="{{ photo }}" alt="{{ caption }}" />
+        <figcaption>{{ caption }}</figcaption>
+      </figure>
+  
+    {{ /if }}
+  
+  {{ /my_replicator_field }}
 </section>
