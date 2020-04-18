@@ -12,8 +12,20 @@
     text-decoration: none !important; }
 
 body {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-family: "Avenir LT W01_55 Roman1475520";
   color: #535353; }
+
+blockquote {
+  color: green;
+  font-size: 30px;
+  border-left: solid thick blue;
+  padding-left: 30px; }
+
+h1, h2, h3, h4 {
+  font-family: "Avenir LT W01_85 Heavy1475544"; }
+
+strong {
+  font-family: "Avenir LT W01_85 Heavy1475544"; }
 
 .navbar {
   padding: 0; }

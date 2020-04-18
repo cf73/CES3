@@ -2,35 +2,46 @@ sections:
   main:
     display: Main
     fields:
-       my_replicator_field:
-          type: replicator
-          display: Replicator
-          sets:
-            text:
-              display: Text
-              fields:
-                text:
-                  type: markdown
-            image:
-              display: Image
-              fields:
-                photo:
-                  type: assets
-                  container: main
-                  max_files: 1
-                caption:
-                  type: text
-            quote:
-              display: Pull Quote
-              fields:
-                text:
-                  type: text
-                cite:
-                  type: text
-                pull:
-                  type: radio
-                  options:
-                    left: Left Align
-                    right: Right Align
+      main_image:
+        container: main
+        folder: /
+        restrict: false
+        type: assets
+        display: 'Main image'
+        max_files: 1
+      my_replicator_field:
+        type: replicator
+        display: 'Add content'
+        sets:
+          text:
+            display: Text
+            fields:
+              text:
+                type: bard
+          image:
+            display: Image
+            fields:
+              photo:
+                type: assets
+                container: main
+                max_files: 1
+              caption:
+                type: text
+          quote:
+            display: 'Pull Quote'
+            fields:
+              text:
+                type: text
+              cite:
+                type: text
+              pull:
+                type: radio
+                options:
+                  left: 'Left Align'
+                  right: 'Right Align'
+      template:
+        type: text
+        display: template
+        default: generic-page
 taxonomies: false
 title: 'Freeform Page'

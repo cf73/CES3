@@ -1,9 +1,0 @@
-sections:
-  main:
-    display: Main
-    fields:
-      pages:
-        type: pages
-        display: Pages
-taxonomies: true
-title: 'About Us'

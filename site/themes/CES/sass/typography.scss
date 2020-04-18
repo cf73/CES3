@@ -1,4 +1,24 @@
+$sans-serif_book: 'Avenir LT W01_45 Book1475508';
+$sans-serif_roman: 'Avenir LT W01_55 Roman1475520';
+$sans-serif_medium: 'Avenir LT W01_65 Medium1475532';
+$sans-serif_bold: 'Avenir LT W01_85 Heavy1475544';
+
 body {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    // font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-family: $sans-serif_roman;
     color: $softblack;
+}
+blockquote {
+    color: green;
+    font-size: 30px;
+    border-left: solid thick blue;
+    padding-left: 30px;
+}
+
+h1, h2, h3, h4 {
+    font-family: $sans-serif_bold;
+}
+
+strong {
+    font-family: $sans-serif_bold;
 }
