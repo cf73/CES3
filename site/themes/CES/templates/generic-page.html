@@ -1,11 +1,16 @@
 <section>
-  <h1 style="margin-bottom: 30px;">{{title}}</h1>
-  {{if main_image}}
-    <img width="100%" style="margin-bottom: 60px; border-radius: 60px;" src="{{main_image}}" alt="{{title}}">
-  {{/if}}
+  
+  
 
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-lg-6 offset-lg-1">
+
+      {{if main_image}}
+        <div style="background-image: url({{main_image}});" class="image"></div>
+      {{/if}}
+
+  <h1 style="margin-bottom: 30px;">{{title}}</h1>
+
       {{ my_replicator_field }}
 
         {{ if type == "text" }}
@@ -30,7 +35,7 @@
       
       {{ /my_replicator_field }}
     </div>
-    <div class="col-md-3 offset-md-1">
+    <div class="col-lg-3 offset-lg-1 offset-xl-2">
       {{partial:inspiration}}
     </div>
   </div>

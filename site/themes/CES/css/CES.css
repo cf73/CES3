@@ -11,21 +11,61 @@
     color: white;
     text-decoration: none !important; }
 
+.image {
+  border-radius: 60px;
+  width: 100%;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .image:after {
+    content: "";
+    display: block;
+    padding-bottom: 66%; }
+
+#navigation {
+  background-color: white;
+  box-shadow: 0px 4px 60px rgba(190, 203, 217, 0.25); }
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+
+#logo {
+  margin-top: 10px; }
+
 body {
   font-family: "Avenir LT W01_55 Roman1475520";
   color: #535353; }
 
 blockquote {
-  color: green;
-  font-size: 30px;
-  border-left: solid thick blue;
-  padding-left: 30px; }
+  font-size: 24px;
+  line-height: 30px;
+  font-style: normal !important;
+  font-family: "Avenir LT W01_65 Medium1475532";
+  margin-left: -60px; }
 
 h1, h2, h3, h4 {
   font-family: "Avenir LT W01_85 Heavy1475544"; }
 
+h3 {
+  font-size: 18px;
+  padding-top: 12px;
+  font-family: "Avenir LT W01_85 Heavy1475544";
+  line-height: 24px; }
+
+p {
+  color: #6C7681; }
+
 strong {
   font-family: "Avenir LT W01_85 Heavy1475544"; }
+
+.script {
+  font-family: "Born Ready Slanted W05 Regular";
+  font-size: 36px;
+  line-height: 36px;
+  color: #ED5575; }
 
 .navbar {
   padding: 0; }

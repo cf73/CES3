@@ -12,3 +12,29 @@
         text-decoration: none !important;
     }
 }
+
+.image {
+    border-radius: 60px; width: 100%; margin-bottom: 30px;
+    background-size: cover; background-repeat: no-repeat;
+    &:after {
+        content: "";
+        display: block;
+        padding-bottom: 66%;
+        }
+}
+
+#navigation {
+    background-color: white;
+    box-shadow: 0px 4px 60px rgba(190, 203, 217, 0.25);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#logo {
+    margin-top: 10px;
+}

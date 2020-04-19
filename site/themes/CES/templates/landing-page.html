@@ -1,6 +1,13 @@
 <section>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-lg-6 offset-lg-1">
+            <h1>{{title}}</h1>
+            {{if main_image}}
+                <div style="background-image: url({{main_image}});" alt="{{title}}" class="image"></div>
+            {{/if}}
+            <p>{{content}}</p>
+        </div>
+        <div class="col-lg-3 offset-lg-1 offset-xl-2">
             <ul style="margin-left: -40px; list-style-type: none;">
                 {{ nav from="/{segment_1}" max_depth="2" }}
                 <li>
@@ -14,15 +21,6 @@
                 {{ /nav }}
             </ul>
             {{partial:inspiration}}
-
         </div>
-        <div class="col-md-7 offset-md-1">
-            <h1>{{title}}</h1>
-            {{if main_image}}
-                <img width="100%" src="{{main_image}}" alt="{{title}}">
-            {{/if}}
-            <p>{{content}}</p>
-        </div>
-       
     </div>
 </section>
