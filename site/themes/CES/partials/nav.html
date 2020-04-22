@@ -8,7 +8,7 @@
                         <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                             <div class="collapse navbar-collapse" id="navcol-1">
                                 <ul class="nav navbar-nav">
-                                    {{ nav from="/" include_home="true" scope="tag" }}
+                                    {{ nav from="/" include_home="false" scope="tag" }}
                                         <li {{ if is_current or is_parent }} class="active"{{ /if }}>
                                             <h2 style="margin-bottom: 0;"><a href="{{ url }}">
                                             
