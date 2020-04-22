@@ -5,13 +5,14 @@
     display: inline;
     padding: 0;
     margin: 0 15px;
-    padding-bottom: 6px;
+	padding-bottom: 6px;
+	
 }
 nav h3 {
 	margin-bottom: 0;
 }
 nav a {
-	color: $softblack;
+	color: $text;
 	margin-left: 30px;
 	padding-bottom: 6px;
 	border-bottom: solid 2px #ffffff00;
@@ -19,13 +20,14 @@ nav a {
 	&:hover {
 		border-bottom: solid 2px $pink;
 		text-decoration: none;
-		color: $softblack;
+		color: $text;
 		transition: all 1s;
 	}
 	
 }
  .active a {
 	border-bottom: solid 2px $pink;
+	color: $pink;
 }
 
 // .navbar-nav {

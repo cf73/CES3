@@ -35,6 +35,15 @@ header {
 #logo {
   margin-top: 10px; }
 
+.sidebar {
+  position: fixed;
+  left: calc(50vw + (1140px / 12 * 2 + 15px));
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #F3F8FD;
+  z-index: -999; }
+
 body {
   font-family: "Avenir LT W01_55 Roman1475520";
   color: #535353; }
@@ -48,6 +57,17 @@ blockquote {
 
 h1, h2, h3, h4 {
   font-family: "Avenir LT W01_85 Heavy1475544"; }
+
+h1 {
+  font-size: 36px;
+  font-family: "Avenir LT W01_65 Medium1475532"; }
+
+h2 {
+  font-size: 21px;
+  font-family: "Avenir LT W01_85 Heavy1475544";
+  color: #373356; }
+  h2 h2 a {
+    color: #373356; }
 
 h3 {
   font-size: 18px;
@@ -80,7 +100,7 @@ nav h3 {
   margin-bottom: 0; }
 
 nav a {
-  color: #535353;
+  color: #6C7681;
   margin-left: 30px;
   padding-bottom: 6px;
   border-bottom: solid 2px #ffffff00;
@@ -88,10 +108,11 @@ nav a {
   nav a:hover {
     border-bottom: solid 2px #ED5575;
     text-decoration: none;
-    color: #535353;
+    color: #6C7681;
     transition: all 1s; }
 
 .active a {
-  border-bottom: solid 2px #ED5575; }
+  border-bottom: solid 2px #ED5575;
+  color: #ED5575; }
 
 /*# sourceMappingURL=CES.css.map */

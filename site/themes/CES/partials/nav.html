@@ -10,11 +10,11 @@
                                 <ul class="nav navbar-nav">
                                     {{ nav from="/" include_home="true" scope="tag" }}
                                         <li {{ if is_current or is_parent }} class="active"{{ /if }}>
-                                            <a href="{{ url }}">
-                                                
-                                                {{ tag:nav_title or title }}
-                                                
-                                            </a>
+                                            <h2 style="margin-bottom: 0;"><a href="{{ url }}">
+                                            
+                                            {{ tag:nav_title or title }}
+                                            
+                                            </a></h2>
                                         </li>
                                     {{ /nav }}
                                 </ul>

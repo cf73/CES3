@@ -38,3 +38,12 @@ header {
 #logo {
     margin-top: 10px;
 }
+.sidebar {
+    position: fixed;
+    left: calc(50vw + (1140px / 12 * 2 + 15px));
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $pale;
+    z-index: -999;
+}
