@@ -23,5 +23,32 @@ sections:
       location:
         type: textarea
         display: Location
+      short_description:
+        type: textarea
+        display: 'Short description'
+        validate: 'max:333 | required'
+      description:
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: Description
+        instructions: 'If more detail is needed, add it here.'
 taxonomies: false
 title: Event

@@ -14,7 +14,8 @@
 }
 
 .image {
-    border-radius: 60px; width: 100%; margin-bottom: 30px;
+    
+     width: 100%; margin-bottom: 30px;
     background-size: cover; background-repeat: no-repeat;
     &:after {
         content: "";
@@ -40,8 +41,8 @@ header {
 }
 .sidebar {
     position: fixed;
-    left: calc(50vw + (1140px / 12 * 2) + 15px);
-    right: 0;
+    right: calc(50vw + (1140px / 12 * 2) + 15px);
+    left: 0;
     top: 0;
     bottom: 0;
     background-color: $pale;

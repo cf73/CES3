@@ -1,0 +1,15 @@
+sections:
+  main:
+    display: Main
+    fields:
+      text:
+        type: textarea
+        display: Text
+      image:
+        container: main
+        folder: /
+        restrict: false
+        type: assets
+        display: Image
+taxonomies: true
+title: Announcement

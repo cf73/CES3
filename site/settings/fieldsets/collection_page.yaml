@@ -9,7 +9,7 @@ sections:
         max_files: 1
         type: assets
         display: 'Main image'
-      content:
+      '':
         buttons:
           - h2
           - h3
@@ -30,6 +30,7 @@ sections:
         semantic_elements: false
         restrict_assets: false
         type: bard
-        display: Content
+        display: 'Description of page'
+        validate: 'max:150 | required'
 taxonomies: false
-title: 'Landing Page'
+title: 'Collection Page'
