@@ -2,3 +2,10 @@
 app_key: HFHXuicbbLxAtuZI5HEgS1weBEMxADjT
 
 yaml_parser: symfony
+locales:
+  en:
+    full: en_US
+    name: English
+    url: 'http://conradfulbrookdesign.com/CES'
+    # url: ''
+timezone: UTC
