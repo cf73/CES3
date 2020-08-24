@@ -25,10 +25,6 @@ my_replicator_field:
       
       Gerlinde Hossain-Endl, Director
       </p>
-  -
-    type: image
-    photo: /assets/mission.jpg
-    caption: 'this is the caption'
 template: landing-page
 title: 'A Letter from the Director'
 fieldset: generic_page
