@@ -1,3 +1,4 @@
 title: Fluency
 testimonial: '<p>Our son was five when we brought him for a Mandarin Chinese language assessment as part of the Cambridge Public Schools’ Kindergarten Lottery registration. By then, he’d spent 2 1/2 years in the CES Mandarin class and 2 summers in CES Mandarin summer program. Since neither of us speak any Chinese, we weren’t sure what to expect. We were delighted when the examiner pointed to the ‘fluency’ range on the evaluation form. This result probably made the difference in the lottery and we have happily accepted our son’s placement in one of the coveted spots in Cambridge’s Chinese Immersion program. CES is simply a magical place for children and families, and the outstanding language instruction here plays a vibrant role in that enchantment.</p>'
+role: 'Parent, Mandarin Room'
 id: 95c3ed76-ba9d-41cd-be9f-0d8e10b2decb
