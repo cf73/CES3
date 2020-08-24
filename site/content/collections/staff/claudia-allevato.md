@@ -6,4 +6,5 @@ education:
   - 'A.A. Diploma Senac Technical School Rio de Janeiro'
 programs:
   - 36a88b5d-67a0-485d-ab97-b0bf05a9140d
+  - 7c798c82-117c-4333-b83d-016ddafcc90d
 id: 467d07cd-1328-43dd-9266-d31b7d9d9e23
