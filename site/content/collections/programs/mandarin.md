@@ -1,5 +1,5 @@
-title: Mandarin
-age_range: '2.9 to 6 years olds'
+title: 'Mandarin Room'
+age_range: '2.9-6 year-olds'
 description: 'The Mandarin Language Program is for children 2.9 to 6 years old. The program uses an emergent curriculum that explores the Chinese culture through holiday celebrations, cooking and character recognition, along with games and songs. The Mandarin Program curriculum also includes literacy, math and science.'
 teachers:
   - e721273d-cddb-44f1-8aca-03799c96adc9
