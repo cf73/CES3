@@ -6,5 +6,5 @@ education:
   - 'Cambridge College'
 programs:
   - e5ed883c-f725-4913-9190-0e92713aa8b8
-  - 870dcf8f-a442-49ce-a6a0-e92dd5f061ed
+  - 510924bc-c941-4b4f-9804-4ab64e0ce502
 id: faebe213-d4df-48c2-b7dc-5168e41bc771
