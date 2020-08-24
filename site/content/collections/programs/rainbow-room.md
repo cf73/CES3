@@ -4,5 +4,6 @@ description: 'The Rainbow Orange Room provides a relaxed, English-language learn
 hero_image: /assets/Programs/xenglish-swings.jpg
 teachers:
   - 467d07cd-1328-43dd-9266-d31b7d9d9e23
+head_teacher: 125a24c5-74f1-4d24-94a0-db2186eef357
 id: 7c798c82-117c-4333-b83d-016ddafcc90d
 program-type: language-program
