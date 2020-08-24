@@ -1,5 +1,6 @@
 title: 'Wendy Henderson'
 role: Teacher
+photo: /assets/Staff/wendy-2.jpg
 description: 'I was born and raised in Miami, and I am native Spanish speaker. I have been living in Cambridge for over two decades, and currently reside with my husband, two alumni CES children, and my dog Archie. My inspiration and love for children began after having my own. I joined the CES staff to earn my early childhood teaching license, and I am excited to be part of the Yellow Room team. I enjoy running, skiing, biking, traveling, and spending time with family and friends.'
 education:
   - 'B.A University of Massachusetts Boston'
