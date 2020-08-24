@@ -1,0 +1,3 @@
+title: Powerful
+testimonial: '<p>Cambridge-Ellis has been an incredibly big, important part of our lives for the past 5 years. The school offers a unique combination elements that drive powerful learning and life experiences. With an incredibly talented, imaginative and warm set of teachers delivering insight through a play based curriculum, our kids have learned by actively connecting to the world.&nbsp;As part of the CES community, we’ve met many so many families with loving, generous value sets and we’ve been lucky to grow our circle of friends from this great community.</p>'
+id: 33d1708e-a697-49ad-88cd-6c1d3d3dc4ba
