@@ -1,43 +1,49 @@
-<section>
-  
-  
-
-  <div class="row">
-    <div class="col-lg-6 offset-lg-1">
-
-      {{if main_image}}
-        <div style="background-image: url({{main_image}});" class="image"></div>
-      {{/if}}
-
-  <h1 style="margin-bottom: 30px;">{{title}}</h1>
-
-      {{ my_replicator_field }}
-
-        {{ if type == "text" }}
-      
-          <div class="text">
-            {{ text|markdown }}
-          </div>
-      
-        {{ elseif type == "quote" }}
-      
-          <blockquote>{{ text }}</blockquote>
-          <p>— {{ cite }}</p>
-      
-        {{ elseif type == "image" }}
-      
-          <figure>
-            <img style="border-radius: 30px;" width="100%" src="{{ photo }}" alt="{{ caption }}" />
-            <figcaption>{{ caption }}</figcaption>
-          </figure>
-      
-        {{ /if }}
-      
-      {{ /my_replicator_field }}
-    </div>
-    <div class="col-lg-3 offset-lg-1 offset-xl-2">
-      {{partial:inspiration}}
-    </div>
+<div class="row">
+  <div class="col-md-3 top-spacing" style="background-color: bisque;">
+    {{partial:subnav}}
   </div>
+  
+  <div class="col-md-7 top-spacing" style="background-color: burlywood;">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
     
-</section>
+          {{if main_image}}
+            <div style="background-image: url({{main_image}});" class="image"></div>
+          {{/if}}
+    
+          <h1 style="margin-bottom: 30px;">{{title}}</h1>
+    
+          {{ my_replicator_field }}
+    
+            {{ if type == "text" }}
+          
+              <div class="text">
+                {{ text|markdown }}
+              </div>
+          
+            {{ elseif type == "quote" }}
+          
+              <blockquote>{{ text }}</blockquote>
+              <p>— {{ cite }}</p>
+          
+            {{ elseif type == "image" }}
+          
+              <figure>
+                <img style="border-radius: 30px;" width="100%" src="{{ photo }}" alt="{{ caption }}" />
+                <figcaption>{{ caption }}</figcaption>
+              </figure>
+          
+            {{ /if }}
+          
+          {{ /my_replicator_field }}
+        </div>
+        <!-- <div class="col-lg-3 offset-lg-1 offset-xl-2">
+          {{partial:inspiration}}
+        </div> -->
+      </div>
+  </div>
+
+  <div class="col-md-2 top-spacing" style="background-color: darkgray;">
+    {{partial:actions}}
+  </div>
+</div>

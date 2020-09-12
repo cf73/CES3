@@ -39,6 +39,19 @@ sections:
                 options:
                   left: 'Left Align'
                   right: 'Right Align'
+      actions:
+        sets:
+          add_action:
+            display: 'Add action'
+            fields:
+              action_name:
+                type: text
+                display: 'Action Name'
+              action_url:
+                type: text
+                display: 'Action URL'
+        type: replicator
+        display: Actions
       template:
         type: text
         display: template

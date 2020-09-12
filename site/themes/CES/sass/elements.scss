@@ -48,3 +48,34 @@ header {
     background-color: $pale;
     z-index: -999;
 }
+.button {
+    display: flex;
+    width: 100%;
+    padding: 12px 15px;
+    background-color: white;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        color: white !important;
+        text-decoration: none;
+        background-color: red;
+    }
+}
+// SUBNAV
+.subnav ul li a {
+    display: flex;
+    background-color: white;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 96px;
+    & h2 {
+        margin-bottom: 0;
+    }
+}
+.on {
+    background-color: honeydew !important;
+}

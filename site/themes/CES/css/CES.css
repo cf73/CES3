@@ -43,6 +43,34 @@ header {
   background-color: #F3F8FD;
   z-index: -999; }
 
+.button {
+  display: flex;
+  width: 100%;
+  padding: 12px 15px;
+  background-color: white;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center; }
+  .button:hover {
+    color: white !important;
+    text-decoration: none;
+    background-color: red; }
+
+.subnav ul li a {
+  display: flex;
+  background-color: white;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 96px; }
+  .subnav ul li a h2 {
+    margin-bottom: 0; }
+
+.on {
+  background-color: honeydew !important; }
+
 body {
   font-family: "Avenir LT W01_55 Roman1475520";
   color: #535353; }
@@ -113,5 +141,11 @@ nav a {
 .active a {
   border-bottom: solid 2px #ED5575;
   color: #ED5575; }
+
+.main {
+  margin-top: 96px; }
+
+.top-spacing {
+  padding-top: 30px; }
 
 /*# sourceMappingURL=CES.css.map */

@@ -6,6 +6,6 @@ locales:
   en:
     full: en_US
     name: English
-    url: 'http://211928273.com/'
-    # url: ''
+    # url: 'http://211928273.com/'
+    url: ''
 timezone: UTC

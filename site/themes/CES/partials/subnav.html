@@ -1,0 +1,16 @@
+<div class="subnav">
+    <ul style="margin-left: -40px; list-style-type: none;">
+        {{ nav from="/{segment_1}" max_depth="2" }}
+        <li>
+        <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}><h2>
+            {{ title }}
+        </h2></a>
+        {{ if is_current || is_parent }}
+        {{ if children }}
+        <ul>{{ *recursive children* }}</ul>
+        {{ /if }}
+        {{ /if }}
+        </li>
+        {{ /nav }}
+    </ul>
+</div>
