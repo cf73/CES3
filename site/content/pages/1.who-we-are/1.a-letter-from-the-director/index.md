@@ -25,6 +25,11 @@ my_replicator_field:
       
       Gerlinde Hossain-Endl, Director
       </p>
+actions:
+  -
+    type: add_action
+    action_name: 'Apply Today'
+    action_url: 'https://cambridge-ellis.myschoolapp.com/app#login/apply'
 template: landing-page
 title: 'A Letter from the Director'
 fieldset: generic_page
