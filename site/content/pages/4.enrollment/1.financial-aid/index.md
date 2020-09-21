@@ -7,8 +7,6 @@ actions:
     type: add_action
     action_name: 'Apply Today'
     action_url: 'https://cambridge-ellis.myschoolapp.com/app#login/apply'
-  -
-    type: add_action
 template: generic-page
 title: Apply
 fieldset: generic_page
